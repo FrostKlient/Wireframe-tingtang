@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="no">
+<head><meta charset="UTF-8"><title>Wireframe utkast 4 (valgt)</title><link rel="stylesheet" href="wf.css">
+<style>
+  .wrap { padding: 0 80px; }
+  .rule { border-top: 2px solid #ccc; }
+  .sec { display:grid; grid-template-columns: 3fr 9fr; gap: 50px; padding: 60px 0; border-top: 2px solid #ccc; position:relative; }
+  .row { display:grid; gap:24px; padding:16px 0; border-bottom:1px solid #ccc; align-items:center; }
+  .mono { font-family: Consolas, monospace; font-size: 13px; color:#666; line-height:1.9; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="title-bar"><span>WIREFRAME – UTKAST 4 (VALGT): «Bakkestasjon / typografisk»</span><span>Desktop 1440px · 12 kolonner</span></div>
+
+  <div class="nav" style="padding:18px 80px">
+    <div style="display:flex;gap:10px;align-items:center"><div class="h" style="width:180px;height:14px;margin:0"></div></div>
+    <ul class="label"><li>Om meg</li><li>Erfaring</li><li>Ferdigheter</li><li>Prosjekter</li><li>Kontakt</li></ul>
+  </div>
+
+  <div class="wrap">
+    <!-- Hero -->
+    <div style="position:relative;padding:90px 0 50px">
+      <div class="h" style="width:760px;height:120px;margin-bottom:16px"></div>
+      <div class="h" style="width:560px;height:120px"></div>
+      <div class="note" style="left:820px;top:110px;">Navnet er det største på siden – typografi gjør jobben, ikke effekter</div>
+    </div>
+    <div class="rule"></div>
+    <div style="display:grid;grid-template-columns:7fr 5fr;gap:50px;padding:40px 0 30px;position:relative">
+      <div><div class="h" style="height:20px;width:70%"></div><div class="h" style="height:20px;width:66%"></div><div class="h" style="height:20px;width:50%"></div></div>
+      <div>
+        <div class="row" style="grid-template-columns:120px 1fr;border-top:1px solid #ccc"><span class="label">Fokus</span><div class="line w80" style="margin:0"></div></div>
+        <div class="row" style="grid-template-columns:120px 1fr"><span class="label">Utplassering</span><div class="line w60" style="margin:0"></div></div>
+        <div class="row" style="grid-template-columns:120px 1fr"><span class="label">Status</span><div class="line w60" style="margin:0"></div></div>
+      </div>
+    </div>
+
+    <!-- Sanntidssporing -->
+    <div style="display:grid;grid-template-columns:8fr 4fr;gap:50px;align-items:end;margin:30px 0 70px;position:relative">
+      <div class="ph" style="height:330px"><span>VERDENSKART (PUNKTER) + BAKKESPOR + SATELLITT</span></div>
+      <div>
+        <div class="h" style="height:18px;width:95%"></div><div class="h" style="height:18px;width:75%"></div>
+        <div class="mono" style="margin-top:18px">NAVN<br>1 ····· ········ ···········<br>2 ····· <u>69.6619</u> <u>18.9422</u> ·······</div>
+        <div class="line w90" style="margin-top:16px"></div><div class="line w60"></div>
+      </div>
+      <div class="note" style="left:40px;top:-30px;">Satellitten «HOJ-1» regnes ut live fra TLE-settet – vises bare som et punkt på kartet</div>
+      <div class="note" style="right:-30px;top:40px;">Én vanlig setning i stedet for et dashbord: «HOJ-1 er nå over … Neste gang over Tromsø om …»</div>
+    </div>
+
+    <!-- Om meg -->
+    <div class="sec">
+      <div class="label">Om meg</div>
+      <div style="display:grid;grid-template-columns:1.6fr 1fr;gap:50px">
+        <div><div class="h" style="height:24px;width:95%"></div><div class="h" style="height:24px;width:80%"></div><div class="line w90"></div><div class="line w80"></div><div class="line w90"></div><div class="line w60"></div></div>
+        <div class="ph" style="height:300px"><span>PROFILBILDE 4:5</span></div>
+      </div>
+      <div class="note" style="left:20px;top:110px;">Etikett til venstre (sticky), innhold til høyre – likt i alle seksjoner</div>
+    </div>
+
+    <!-- Erfaring -->
+    <div class="sec">
+      <div class="label">Erfaring</div>
+      <div>
+        <div class="row" style="grid-template-columns:200px 1fr;border-top:1px solid #ccc;align-items:start"><span class="label">2026</span><div><div class="h" style="width:55%;height:24px"></div><div class="line w40"></div><div class="line w90"></div><div class="line w80"></div></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr;align-items:start"><span class="label">2025 –</span><div><div class="h" style="width:40%;height:24px"></div><div class="line w40"></div><div class="line w80"></div></div></div>
+      </div>
+      <div class="note" style="right:-20px;top:20px;">Utplassering hos Kongsberg Spacetec øverst</div>
+    </div>
+
+    <!-- Ferdigheter -->
+    <div class="sec">
+      <div class="label">Ferdigheter</div>
+      <div>
+        <div class="row" style="grid-template-columns:200px 1fr;border-top:1px solid #ccc"><span class="label">Systemspråk</span><div><span class="tag">C</span><span class="tag">C++</span><span class="tag">C#</span><span class="tag">Assembly</span></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr"><span class="label">Scripting</span><div><span class="tag">Python</span></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr"><span class="label">Web</span><div><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr"><span class="label">Romfart</span><div><span class="tag">TLE</span><span class="tag">Banemekanikk</span><span class="tag">Passeringer</span></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr"><span class="label">Sikkerhet</span><div><span class="tag">Red team</span><span class="tag">Blue team</span><span class="tag">Reverse eng.</span></div></div>
+        <div class="row" style="grid-template-columns:200px 1fr"><span class="label">Verktøy</span><div><span class="tag">CMake</span><span class="tag">Google Test</span><span class="tag">Git</span><span class="tag">IDA Pro</span></div></div>
+      </div>
+      <div class="note" style="right:-20px;top:20px;">Tabell i stedet for kort – lettere å skanne</div>
+    </div>
+
+    <!-- Prosjekter -->
+    <div class="sec">
+      <div class="label">Prosjekter</div>
+      <div>
+        <div class="row" style="grid-template-columns:1fr 200px 60px;border-top:1px solid #ccc;align-items:start">
+          
+          <div><div class="h mid" style="width:60%;height:34px"></div><div class="line w90"></div><div class="line w90"></div><div class="line w60"></div>
+            <div style="display:flex;gap:30px;margin:14px 0"><div class="line" style="width:120px"></div><div class="line" style="width:120px"></div><div class="line" style="width:120px"></div></div>
+          </div>
+          <span class="label">C++ · CMake</span><span class="label">2026</span>
+          <div class="ph" style="grid-column:1 / -1;height:300px"><span>DIAGRAM FRA PROGRAMMET</span></div>
+        </div>
+        <div class="row" style="grid-template-columns:1fr 200px 60px"><div><div class="h mid" style="width:40%;height:26px"></div><div class="line w80"></div></div><span class="label">C++ · ASM</span><span class="label">2026</span></div>
+        <div class="row" style="grid-template-columns:1fr 200px 60px"><div><div class="h mid" style="width:35%;height:26px"></div><div class="line w80"></div></div><span class="label">HTML · CSS</span><span class="label">2026</span></div>
+      </div>
+      <div class="note" style="right:-20px;top:20px;">TLE-prosjektet fremhevet med bilde. Resten som liste</div>
+    </div>
+
+    <!-- Kontakt -->
+    <div class="sec">
+      <div class="label">Kontakt</div>
+      <div>
+        <div class="h" style="height:24px;width:60%"></div>
+        <div class="h big" style="width:75%;height:80px;margin-top:24px"></div>
+        <span class="label">GitHub ↗</span>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

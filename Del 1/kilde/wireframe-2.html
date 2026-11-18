@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="no">
+<head><meta charset="UTF-8"><title>Wireframe utkast 2</title><link rel="stylesheet" href="wf.css"></head>
+<body>
+<div class="page">
+  <div class="title-bar"><span>WIREFRAME – UTKAST 2: «Sidemeny / terminal»</span><span>Desktop 1440px</span></div>
+
+  <div style="display:grid; grid-template-columns:280px 1fr; min-height:1500px;">
+    <!-- Fast sidemeny -->
+    <aside style="border-right:2px solid #ccc; padding:40px 28px; position:relative; background:#fafafa;">
+      <div class="ph" style="width:120px;height:120px;margin-bottom:20px"><span>BILDE</span></div>
+      <div class="h mid" style="width:180px"></div>
+      <div class="line w80"></div>
+      <div style="margin-top:40px; line-height:2.6;" class="label">
+        &gt; om_meg<br>&gt; ferdigheter<br>&gt; prosjekter<br>&gt; kontakt
+      </div>
+      <div style="position:absolute; bottom:40px; left:28px;" class="label">GitHub · E-post</div>
+      <div class="note" style="left:200px; top:300px;">Fast meny til venstre – tar mye plass på mobil?</div>
+    </aside>
+
+    <main>
+      <!-- Hero som terminal -->
+      <div class="section" style="padding:60px 56px;">
+        <div class="box" style="background:#ddd; padding:0;">
+          <div style="height:30px; border-bottom:2px solid #999; background:#ccc;"></div>
+          <div style="padding:40px;">
+            <div class="label">$ whoami</div>
+            <div class="h big" style="width:70%"></div>
+            <div class="line w60"></div><div class="line w40"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="label">Om meg</div>
+        <div class="grid" style="grid-template-columns:2fr 1fr;">
+          <div><div class="line w90"></div><div class="line w80"></div><div class="line w90"></div><div class="line w60"></div></div>
+          <div class="box" style="height:140px"></div>
+        </div>
+      </div>
+
+      <div class="section">
+        <div class="label">Ferdigheter – med «progress bars»</div>
+        <div style="width:70%">
+          <div class="line w40"></div><div class="box" style="height:14px;margin-bottom:14px"><div style="width:80%;height:100%;background:#999"></div></div>
+          <div class="line w40"></div><div class="box" style="height:14px;margin-bottom:14px"><div style="width:65%;height:100%;background:#999"></div></div>
+          <div class="line w40"></div><div class="box" style="height:14px;margin-bottom:14px"><div style="width:50%;height:100%;background:#999"></div></div>
+        </div>
+      </div>
+
+      <div class="section" style="position:relative">
+        <div class="label">Prosjekter – liste</div>
+        <div class="box" style="display:flex;gap:20px;padding:16px;margin-bottom:16px"><div class="ph" style="width:220px;height:130px"><span>BILDE</span></div><div style="flex:1"><div class="h mid" style="width:40%"></div><div class="line w90"></div><div class="line w60"></div></div></div>
+        <div class="box" style="display:flex;gap:20px;padding:16px;margin-bottom:16px"><div class="ph" style="width:220px;height:130px"><span>BILDE</span></div><div style="flex:1"><div class="h mid" style="width:40%"></div><div class="line w90"></div><div class="line w60"></div></div></div>
+        <div class="box" style="display:flex;gap:20px;padding:16px;"><div class="ph" style="width:220px;height:130px"><span>BILDE</span></div><div style="flex:1"><div class="h mid" style="width:40%"></div><div class="line w90"></div><div class="line w60"></div></div></div>
+        <div class="note" style="right:60px; top:20px;">«Progress bars» sier lite – fjern?</div>
+      </div>
+    </main>
+  </div>
+</div>
+</body>
+</html>

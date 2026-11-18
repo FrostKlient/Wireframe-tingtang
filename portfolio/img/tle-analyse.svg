@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="800" viewBox=" 0 0 1000 800">
+<rect width="1000" height="800" fill="#ffffff"/>
+<text x="30" y="45" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#000000">Satelittanalyse</text>
+<text x="30" y="68" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#808080">8 satelitter fra satelitter.csv</text>
+<rect x="30" y="90" width="460" height="330" rx="10" fill="#ffffff" stroke="#ffffff"/>
+<text x="50" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#000000">Inklinasjon</text>
+<line x1="80" y1 ="355" x2="465" y2="355" stroke="#ffffff"/>
+<text x="70" y="359" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">0</text>
+<line x1="80" y1 ="303.75" x2="465" y2="303.75" stroke="#ffffff"/>
+<text x="70" y="307.75" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">1</text>
+<line x1="80" y1 ="252.5" x2="465" y2="252.5" stroke="#ffffff"/>
+<text x="70" y="256.5" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">2</text>
+<line x1="80" y1 ="201.25" x2="465" y2="201.25" stroke="#ffffff"/>
+<text x="70" y="205.25" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">3</text>
+<line x1="80" y1 ="150" x2="465" y2="150" stroke="#ffffff"/>
+<text x="70" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">4</text>
+<rect x="84" y="303.75" width="34.7778" height="51.25" rx="3" fill="#286ACD"/>
+<text x="101.389" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">0-20</text>
+<rect x="126.778" y="303.75" width="34.7778" height="51.25" rx="3" fill="#286ACD"/>
+<text x="144.167" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">20-40</text>
+<rect x="169.556" y="252.5" width="34.7778" height="102.5" rx="3" fill="#286ACD"/>
+<text x="186.944" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">40-60</text>
+<text x="229.722" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">60-80</text>
+<rect x="255.111" y="150" width="34.7778" height="205" rx="3" fill="#286ACD"/>
+<text x="272.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">80-100</text>
+<text x="315.278" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">100-120</text>
+<text x="358.056" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">120-140</text>
+<text x="400.833" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">140-160</text>
+<text x="443.611" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">160-180</text>
+<text x="272" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="middle">grader</text>
+<rect x="510" y="90" width="460" height="330" rx="10" fill="#ffffff" stroke="#ffffff"/>
+<text x="530" y="122" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#000000">Banehøyde</text>
+<line x1="560" y1 ="355" x2="945" y2="355" stroke="#ffffff"/>
+<text x="550" y="359" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">0</text>
+<line x1="560" y1 ="286.667" x2="945" y2="286.667" stroke="#ffffff"/>
+<text x="550" y="290.667" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">1</text>
+<line x1="560" y1 ="218.333" x2="945" y2="218.333" stroke="#ffffff"/>
+<text x="550" y="222.333" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">2</text>
+<line x1="560" y1 ="150" x2="945" y2="150" stroke="#ffffff"/>
+<text x="550" y="154" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="end">3</text>
+<rect x="564" y="150" width="69" height="205" rx="3" fill="#286ACD"/>
+<text x="598.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">under 500</text>
+<rect x="641" y="150" width="69" height="205" rx="3" fill="#286ACD"/>
+<text x="675.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">500-1000</text>
+<text x="752.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">1000-10k</text>
+<rect x="795" y="286.667" width="69" height="68.3333" rx="3" fill="#286ACD"/>
+<text x="829.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">10k-30k</text>
+<rect x="872" y="286.667" width="69" height="68.3333" rx="3" fill="#286ACD"/>
+<text x="906.5" y="373" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#808080" text-anchor="middle">over 30k</text>
+<text x="752" y="402" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080" text-anchor="middle">km</text>
+<rect x="30" y="440" width="460" height="330" rx="10" fill="#ffffff" stroke="#ffffff"/>
+<text x="50" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#000000">Kommunikasjonstid per passering</text>
+<text x="190" y="514.938" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">ISS (ZARYA)</text>
+<rect x="200" y="499" width="146.667" height="23.875" rx="3" fill="#ddb245"/>
+<text x="354.667" y="514.938" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">8 min</text>
+<text x="190" y="546.812" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">NOAA 19</text>
+<rect x="200" y="530.875" width="220" height="23.875" rx="3" fill="#389759"/>
+<text x="428" y="546.812" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">12 min</text>
+<text x="190" y="578.688" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">METOP-B</text>
+<rect x="200" y="562.75" width="220" height="23.875" rx="3" fill="#389759"/>
+<text x="428" y="578.688" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">12 min</text>
+<text x="190" y="610.562" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">SWARM-A</text>
+<rect x="200" y="594.625" width="220" height="23.875" rx="3" fill="#389759"/>
+<text x="428" y="610.562" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">12 min</text>
+<text x="190" y="642.438" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">SENTINEL-2A</text>
+<rect x="200" y="626.5" width="220" height="23.875" rx="3" fill="#389759"/>
+<text x="428" y="642.438" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">12 min</text>
+<text x="190" y="674.312" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">HST</text>
+<rect x="200" y="658.375" width="55" height="23.875" rx="3" fill="#d63a34"/>
+<text x="263" y="674.312" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">3 min</text>
+<text x="190" y="706.188" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">NAVSTAR 65 (USA 213)</text>
+<rect x="200" y="690.25" width="146.667" height="23.875" rx="3" fill="#ddb245"/>
+<text x="354.667" y="706.188" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">8 min</text>
+<text x="190" y="738.062" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#000000" text-anchor="end">THOR 7</text>
+<rect x="200" y="722.125" width="55" height="23.875" rx="3" fill="#d63a34"/>
+<text x="263" y="738.062" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#808080">3 min</text>
+<rect x="510" y="440" width="460" height="330" rx="10" fill="#ffffff" stroke="#ffffff"/>
+<text x="530" y="472" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="600" fill="#000000">Rangering</text>
+<text y="508" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="600" fill="#808080">#<tspan x="555">Navn</tspan><tspan x="755">Min</tspan><tspan x="805">Inkl.</tspan><tspan x="870">Høyde</tspan></text>
+<rect x="520" y="518" width="440" height="30" rx="4" fill ="#ffffff"/>
+<text y="537" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">1</tspan><tspan x="555">NOAA 19</tspan><tspan x ="755">12</tspan><tspan x ="805">99.2°</tspan><tspan x="870">849 km</tspan> </text>
+<text y="567" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">2</tspan><tspan x="555">METOP-B</tspan><tspan x ="755">12</tspan><tspan x ="805">98.7°</tspan><tspan x="870">820 km</tspan> </text>
+<rect x="520" y="578" width="440" height="30" rx="4" fill ="#ffffff"/>
+<text y="597" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">3</tspan><tspan x="555">SENTINEL-2A</tspan><tspan x ="755">12</tspan><tspan x ="805">98.6°</tspan><tspan x="870">789 km</tspan> </text>
+<text y="627" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">4</tspan><tspan x="555">SWARM-A</tspan><tspan x ="755">12</tspan><tspan x ="805">87.3°</tspan><tspan x="870">398 km</tspan> </text>
+<rect x="520" y="638" width="440" height="30" rx="4" fill ="#ffffff"/>
+<text y="657" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">5</tspan><tspan x="555">NAVSTAR 65 (USA 213)</tspan><tspan x ="755">8</tspan><tspan x ="805">55.0°</tspan><tspan x="870">20183 km</tspan> </text>
+<text y="687" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">6</tspan><tspan x="555">ISS (ZARYA)</tspan><tspan x ="755">8</tspan><tspan x ="805">51.6°</tspan><tspan x="870">417 km</tspan> </text>
+<rect x="520" y="698" width="440" height="30" rx="4" fill ="#ffffff"/>
+<text y="717" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">7</tspan><tspan x="555">THOR 7</tspan><tspan x ="755">3</tspan><tspan x ="805">0.0°</tspan><tspan x="870">35787 km</tspan> </text>
+<text y="747" font-family="Segoe UI, Arial, sans-serif" font-size="13" fill="#000000"><tspan x="530">8</tspan><tspan x="555">HST</tspan><tspan x ="755">3</tspan><tspan x ="805">28.5°</tspan><tspan x="870">482 km</tspan> </text>
+</svg>

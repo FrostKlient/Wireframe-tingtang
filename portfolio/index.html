@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Henrik Olden Johansen – Utvikler</title>
+  <meta name="description" content="Henrik Olden Johansen – utvikler med interesse for satellitter, bakkestasjoner, lavnivåprogrammering og IT-sikkerhet.">
+  <meta name="theme-color" content="#0d0d0d">
+  <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#innhold">Hopp til innhold</a>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="#topp">Henrik Olden Johansen</a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="hovedmeny">
+        <span class="nav-toggle__label">Meny</span>
+      </button>
+
+      <nav class="site-nav" id="hovedmeny" aria-label="Hovedmeny">
+        <ul>
+          <li><a href="#om-meg">Om meg</a></li>
+          <li><a href="#erfaring">Erfaring</a></li>
+          <li><a href="#ferdigheter">Ferdigheter</a></li>
+          <li><a href="#prosjekter">Prosjekter</a></li>
+          <li><a href="#kontakt">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="innhold">
+    <section class="hero container" id="topp" aria-labelledby="hero-tittel">
+      <h1 class="hero__name" id="hero-tittel">Henrik Olden<br>Johansen</h1>
+
+      <div class="hero__bottom">
+        <p class="hero__intro">Jeg går Vg2 informasjonsteknologi og ser etter læreplass. Her er litt av det jeg har laget med C++ og satellittdata.</p>
+
+        <dl class="meta">
+          <div><dt>Fokus</dt><dd>Satellittdata og C++</dd></div>
+          <div><dt>Utplassering</dt><dd>Kongsberg Spacetec</dd></div>
+          <div><dt>Status</dt><dd>Søker læreplass</dd></div>
+        </dl>
+      </div>
+
+      <figure class="tracker" id="sporing">
+        <div class="map">
+          <img src="img/verden.svg" alt="" width="1440" height="720">
+          <svg class="map__overlay" id="kart-overlay" viewBox="0 0 360 180" aria-hidden="true"></svg>
+        </div>
+        <figcaption class="tracker__text">
+          <p class="tracker__live" id="sporing-tekst">Kartet viser eksempelbanen til HOJ-1.</p>
+          <pre id="tle" aria-label="Henrik Olden Johansen skrevet som et TLE-datasett">HENRIK O. JOHANSEN
+1 00001U 26001A   26309.50000000  .00000000  00000-0  00000-0 0  9995
+2 00001  <mark>69.6619</mark>  <mark>18.9422</mark> 0001000 000.0000 000.0000 15.50000000000019</pre>
+          <p class="tracker__note">HOJ-1 er en oppdiktet satellitt. Punktet viser hvor den ville vært nå. De to markerte tallene har jeg lånt fra koordinatene til Tromsø.</p>
+        </figcaption>
+      </figure>
+    </section>
+
+    <section class="section container" id="om-meg" aria-labelledby="om-meg-tittel">
+      <div class="section__label">
+        <h2 id="om-meg-tittel">Om meg</h2>
+      </div>
+
+      <div class="section__content about">
+        <p class="lead">Jeg liker å jobbe med C++ og finne ut hvordan programmer fungerer på innsiden.</p>
+        <p>Jeg bruker mye IDA Pro når jeg undersøker Windows-programmer. Jeg har også laget et program som regner på satellittbaner, etter å ha vært i praksis hos Kongsberg Spacetec.</p>
+        <p><a href="#prosjekter">Se satellittprosjektet mitt ↓</a></p>
+      </div>
+    </section>
+
+    <section class="section container" id="erfaring" aria-labelledby="erfaring-tittel">
+      <div class="section__label">
+        <h2 id="erfaring-tittel">Erfaring</h2>
+      </div>
+
+      <div class="section__content">
+        <ol class="timeline">
+          <li class="timeline__item">
+            <p class="timeline__when">2026</p>
+            <div>
+              <h3 class="timeline__title">Utplassering hos Kongsberg Spacetec</h3>
+              <p class="timeline__where">Tromsø · Bakkestasjoner og satellittdata</p>
+              <p class="timeline__desc">I praksis fikk jeg se hvordan en bakkestasjon tar imot data. Stasjonen må vite når satellitten kommer over horisonten og hvor antennen skal peke.</p>
+            </div>
+          </li>
+          <li class="timeline__item">
+            <p class="timeline__when">2025 –</p>
+            <div>
+              <h3 class="timeline__title">Informasjonsteknologi</h3>
+              <p class="timeline__where">Videregående skole · Vg2</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section container" id="ferdigheter" aria-labelledby="ferdigheter-tittel">
+      <div class="section__label">
+        <h2 id="ferdigheter-tittel">Ferdigheter</h2>
+      </div>
+
+      <div class="section__content">
+        <dl class="skills">
+          <div class="skills__row">
+            <dt>Systemspråk</dt>
+            <dd><ul><li>C</li><li>C++</li><li>C#</li><li>Assembly</li></ul></dd>
+          </div>
+          <div class="skills__row">
+            <dt>Scripting</dt>
+            <dd><ul><li>Python</li></ul></dd>
+          </div>
+          <div class="skills__row">
+            <dt>Web</dt>
+            <dd><ul><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></dd>
+          </div>
+          <div class="skills__row">
+            <dt>Romfart</dt>
+            <dd><ul><li>TLE / banedata</li><li>Banemekanikk</li><li>Satellittpasseringer</li></ul></dd>
+          </div>
+          <div class="skills__row">
+            <dt>Sikkerhet</dt>
+            <dd><ul><li>Red teaming</li><li>Blue teaming</li><li>Reverse engineering</li></ul></dd>
+          </div>
+          <div class="skills__row">
+            <dt>Verktøy</dt>
+            <dd><ul><li>CMake</li><li>Google Test</li><li>Git</li><li>IDA Pro</li><li>VS Code</li></ul></dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section container" id="prosjekter" aria-labelledby="prosjekter-tittel">
+      <div class="section__label">
+        <h2 id="prosjekter-tittel">Prosjekter</h2>
+      </div>
+
+      <div class="section__content">
+        <ol class="projects">
+          <li class="project project--featured">
+            <div class="project__main">
+              <h3 class="project__title">TLE-analyse av satellitter</h3>
+              <p class="project__desc">
+                Jeg skrev et program som leser banedata og regner ut blant annet banehøyde og tid over
+                horisonten. Diagrammet under viser resultatet for åtte satellitter.
+              </p>
+            </div>
+            <p class="project__tech">C++17 · CMake · Google Test</p>
+            <p class="project__year">2026</p>
+            <figure class="project__figure">
+              <img src="img/tle-analyse.svg" alt="Diagram generert av programmet: inklinasjon, banehøyde, kommunikasjonstid per passering og rangering av åtte satellitter" width="1000" height="800" loading="lazy">
+              <figcaption>Åtte satellitter fra satellitter.csv.</figcaption>
+            </figure>
+          </li>
+          <li class="project">
+            <div class="project__main">
+              <h3 class="project__title">Aster Debugger – Ring 0-debugger for Roblox</h3>
+              <p class="project__desc">
+                Jeg laget debuggeren for å finne ut hvorfor Roblox lukket seg når jeg testet executoren.
+                Programmet kjører i brukermodus og leser minnet gjennom en sårbar kjernedriver i Ring 0,
+                altså BYOVD. Jeg kan følge trådene, se funksjonskallene og gå gjennom de siste tre
+                sekundene før spillet lukker seg. Den kan også lese krasjdumper og gruppere like krasj.
+              </p>
+            </div>
+            <p class="project__tech">C++ · BYOVD · Win32</p>
+            <p class="project__year">2026</p>
+          </li>
+          <li class="project">
+            <div class="project__main">
+              <h3 class="project__title">Astēr – executor for Roblox</h3>
+              <p class="project__desc">
+                Astēr er executoren min for Roblox. Den har en innebygd Luau-kompilator og sender
+                resultatet fra skriptet tilbake til grensesnittet. Jeg har jobbet med filfunksjonene og
+                Drawing-API-et også. Det siste har tatt en del feilsøking, spesielt når figurene har
+                riktige verdier i testene, men ikke vises i spillet.
+              </p>
+            </div>
+            <p class="project__tech">C++ · Luau · IDA Pro</p>
+            <p class="project__year">2026</p>
+          </li>
+          <li class="project">
+            <div class="project__main">
+              <h3 class="project__title">Astēr Decryptor</h3>
+              <p class="project__desc">
+                Et Python-verktøy jeg jobber med for å dekryptere Roblox-klientfiler til analyse i IDA.
+                Det kjøres fra terminalen og viser framdriften underveis. Ulike klientversjoner trenger
+                egne tilpasninger. Verktøyet varsler hvis ingen sider ble dekryptert, selv om det ble
+                skrevet en ny fil.
+              </p>
+            </div>
+            <p class="project__tech">Python · PE-formatet</p>
+            <p class="project__year">2026</p>
+          </li>
+          <li class="project">
+            <div class="project__main">
+              <h3 class="project__title">Porteføljenettside</h3>
+              <p class="project__desc">
+                Denne siden begynte som skisser i Figma. Kartet er tegnet med SVG og oppdateres med
+                JavaScript.
+              </p>
+            </div>
+            <p class="project__tech">HTML · CSS · JavaScript</p>
+            <p class="project__year">2026</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section container" id="kontakt" aria-labelledby="kontakt-tittel">
+      <div class="section__label">
+        <h2 id="kontakt-tittel">Kontakt</h2>
+      </div>
+
+      <div class="section__content contact">
+        <p class="lead">Du når meg på e-post.</p>
+        <a class="contact__mail" href="mailto:hmmhoj@gmail.com">hmmhoj@gmail.com</a>
+        <ul class="contact__links">
+          <li><a href="https://github.com/FrostKlient" rel="noopener">GitHub<span aria-hidden="true"> ↗</span></a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <script src="js/main.js" defer></script>
+  <script src="js/sporing.js" defer></script>
+</body>
+</html>
